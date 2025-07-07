@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { register } from "../services/authservice";
+import { register } from "../services/authService";
 import Swal from "sweetalert2";
 import { useNavigate, Link } from "react-router-dom";
 import { useEffect } from "react";
